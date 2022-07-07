@@ -53,6 +53,10 @@
 
 ## Set-up
 
+<img style="float: right; width:35%;" src="./images/dftbook.jpg">
+
+
+
 <div   style="background-color:#DAF7A6; color:#C70039"> <ul>  <li> Density Functional Theory</li>  
     <li> First Brilloiun Zone</li>  <li> Bloch Theorem</li> <li> K-Point Sampling</li> <img src="./images/BZsample.png"  style="height:200px"> </ul> </div>
 
