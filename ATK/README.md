@@ -1,7 +1,5 @@
 
 
-
-
 # Quantum-ATK
 
 
@@ -9,6 +7,8 @@
 ## Build
 
 <div style="height:30px; background-color:gray;" ></div>
+
+### Prerequisite
 
 - **CIF** is a standard format for crystal structure information containing cell parameters, atomic positions and type   <img style="float: right; height:200px" src="./images/Animation.gif">
 - Basic concepts , Lattice, Basis 
@@ -21,7 +21,7 @@
 
   
 
-  <img src="images/bravais-en.jpg" alt="drawing" style="width:400px;"/>
+  <img src="images/bravais-en.jpg" alt="drawing" style="width:500px;"/>
 
 
 
@@ -53,13 +53,37 @@
 
 ## Set-up
 
+<div   style="background-color:#DAF7A6; color:#C70039"> <ul>  <li> Density Functional Theory</li>  
+    <li> First Brilloiun Zone</li>  <li> Bloch Theorem</li> <li> K-Point Sampling</li> <img src="./images/BZsample.png"  style="height:200px"> </ul> </div>
 
 
 
+Script generation for calculations
 
-## Submit
+- LCAO  (DFT)
+- Plane-wave (DFT)
+- Semi-imperical (DFTB)
+- Force-field (Molecular dynamics) 
+
+## Calculation?
+
+#### SCF/Optimization/MD
+
+- SCF (Single point) : Total energy of system at a fixed geometry (Iterations for energy|charge convergence)
+- Optimize geometry: Several SCF to find 
+- Molecular dynamics
+
+<img src="./images/relax.jpg">
 
 
 
 ## Analyze
+
+- Density of states (DOS)
+
+- Band Structure
+
+- Electron density
+
+  
 
